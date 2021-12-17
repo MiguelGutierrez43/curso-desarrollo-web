@@ -20,6 +20,8 @@ nav {
   background: salmon;
   color: #fff;
   padding: 10px 0;
+  border: 2px solid #fff;
+  display: none;
 }
 
 @media (max-width: 600px) {
@@ -29,5 +31,8 @@ nav {
   }
   .nav-enlace {
     margin: 10px 0;
+  }
+  .nav-boton {
+    display: inline-block;
   }
 }
