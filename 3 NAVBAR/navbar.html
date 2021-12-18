@@ -10,11 +10,17 @@
 </head>
 <body>
     <nav>
-        <button class="nav-boton">Menú</button>
-        <a href="#" class="nav-enlace">Inicio</a>
-        <a href="#" class="nav-enlace">Nosotros</a>
-        <a href="#" class="nav-enlace">Servicio</a>
-        <a href="#" class="nav-enlace">Contacto</a>
+        <button class="nav-boton" onclick="accion()">Menú</button>
+        <a href="#" class="nav-enlace desaparece">Inicio</a>
+        <a href="#" class="nav-enlace desaparece">Nosotros</a>
+        <a href="#" class="nav-enlace desaparece">Servicio</a>
+        <a href="#" class="nav-enlace desaparece">Contacto</a>
     </nav>
+
+    <script>
+        function accion(){
+            console.log('esta funcionando mi boton');
+        }
+    </script>
 </body>
 </html>
