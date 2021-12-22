@@ -30,9 +30,24 @@ p {
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
+  box-shadow: 10px 10px 10px #888;
 }
 
 .precio {
   font-size: 50px;
   color: #00dca7;
+}
+
+.btn-precio {
+  background: salmon;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.btn-precio:hover {
+  background: rgb(257, 87, 45);
 }
