@@ -14,3 +14,11 @@ p {
   margin: 0 auto;
   width: 90%;
 }
+
+.flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
