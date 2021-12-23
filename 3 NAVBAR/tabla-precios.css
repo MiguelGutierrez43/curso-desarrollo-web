@@ -17,6 +17,7 @@ p {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .text-center {
@@ -27,15 +28,17 @@ p {
   background-color: rgb(228, 228, 228);
   color: #333;
   border: 1px solid #333;
-  margin: 10px;
+  margin: 0 auto;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 10px 10px 10px #888;
+  width: 23%;
+  box-sizing: border-box;
 }
 
 .precio {
   font-size: 50px;
-  color: #dc000b;
+  color: #00dac7;
 }
 
 .btn-precio {
@@ -50,4 +53,18 @@ p {
 
 .btn-precio:hover {
   background: rgb(257, 87, 45);
+}
+
+@media (max-width: 1070px) {
+  .columna {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .columna {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
